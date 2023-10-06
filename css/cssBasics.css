@@ -1,0 +1,59 @@
+.subscribe-btn{
+    background-color: rgb(205, 0, 0);
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    transition: opacity 0.2s;
+}
+
+.subscribe-btn:hover{
+    opacity: 0.8;
+}
+.subscribe-btn:active{
+    opacity: 0.4;
+}
+
+.join-btn{
+    margin-left: 10px;
+    height: 40px;
+    width : 62px;
+    background-color: white ;
+    color: blue;
+    border-color: blue;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    transition: background-color 0.15s,color 0.15s;
+/* rgb(4, 125, 224) */
+
+} 
+
+.join-btn:hover{
+    background-color: rgb(4, 125, 224);
+    color:  white;
+}
+
+.stretch-btn{
+    background-color: rgb(21, 132, 9);
+    margin-left: 10px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+    transition: padding 0.2s;
+}
+
+.stretch-btn:hover{
+    padding: 15px 20px 15px 20px;
+}
+ 
+.image{
+    width: 200px;
+    height : 200px;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 100%;
+}

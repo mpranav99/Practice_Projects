@@ -1,0 +1,56 @@
+h1{
+    color : hsl(0,100%,50%)
+}
+
+/* .heading{
+    color : hsl(hue, saturation, lightness)
+} */
+div.sample-div::before{
+    content: "Before";
+    background: red;
+}
+
+body{
+    font-size: 20px;
+}
+
+li:nth-child(2n+1){
+    background: blue;
+}
+
+li:not(.sample-li){
+    background: palegreen;
+}
+
+li.sample-li + li{
+    color : yellow;
+}
+span:only-of-type{
+    background: lavender;
+}
+
+.box{
+    height: 100px;
+    width: 5em; /*basically 100px*/
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+div.sample.green-text{
+    /* background-color: aqua; */
+    color:  green;
+}
+
+div > b{
+    color: red
+}
+input:focus{
+    background-color: red;
+}
+
+li:hover{
+    background-color:  lawngreen;
+}
